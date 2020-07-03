@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine", "PromotionEngine\PromotionEngine.csproj", "{E490C9CF-D6AC-48E3-993B-F3968A3C050E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine.Models", "PromotionEngine.Models\PromotionEngine.Models.csproj", "{B34D70B0-4ED6-45E0-B258-2CDC8CFB27C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine.Business", "PromotionEngine.Business\PromotionEngine.Business.csproj", "{29EE7385-B5FD-449F-9914-4111AF88660E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine.Test", "PromotionEngine.Test\PromotionEngine.Test.csproj", "{AF85254F-3D90-4766-8739-9425D1744F2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{556FB91F-877B-4D24-A25F-8E8C93B125FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine.FunctionalTest", "PromotionEngine.FunctionslTest\PromotionEngine.FunctionalTest.csproj", "{16C2D5DF-6B68-4E3B-B9ED-8B5C79B822A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine.UnitTest", "PromotionEngine.UnitTest\PromotionEngine.UnitTest.csproj", "{A229F545-6204-43F2-9420-B0E9E31D45CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E490C9CF-D6AC-48E3-993B-F3968A3C050E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E490C9CF-D6AC-48E3-993B-F3968A3C050E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E490C9CF-D6AC-48E3-993B-F3968A3C050E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E490C9CF-D6AC-48E3-993B-F3968A3C050E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34D70B0-4ED6-45E0-B258-2CDC8CFB27C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34D70B0-4ED6-45E0-B258-2CDC8CFB27C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34D70B0-4ED6-45E0-B258-2CDC8CFB27C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34D70B0-4ED6-45E0-B258-2CDC8CFB27C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29EE7385-B5FD-449F-9914-4111AF88660E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EE7385-B5FD-449F-9914-4111AF88660E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EE7385-B5FD-449F-9914-4111AF88660E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EE7385-B5FD-449F-9914-4111AF88660E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF85254F-3D90-4766-8739-9425D1744F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF85254F-3D90-4766-8739-9425D1744F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF85254F-3D90-4766-8739-9425D1744F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF85254F-3D90-4766-8739-9425D1744F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C2D5DF-6B68-4E3B-B9ED-8B5C79B822A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C2D5DF-6B68-4E3B-B9ED-8B5C79B822A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C2D5DF-6B68-4E3B-B9ED-8B5C79B822A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C2D5DF-6B68-4E3B-B9ED-8B5C79B822A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A229F545-6204-43F2-9420-B0E9E31D45CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A229F545-6204-43F2-9420-B0E9E31D45CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A229F545-6204-43F2-9420-B0E9E31D45CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A229F545-6204-43F2-9420-B0E9E31D45CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16C2D5DF-6B68-4E3B-B9ED-8B5C79B822A3} = {556FB91F-877B-4D24-A25F-8E8C93B125FF}
+		{A229F545-6204-43F2-9420-B0E9E31D45CD} = {556FB91F-877B-4D24-A25F-8E8C93B125FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24E8533F-DC3D-4135-9EB8-2516010E748C}
+	EndGlobalSection
+EndGlobal

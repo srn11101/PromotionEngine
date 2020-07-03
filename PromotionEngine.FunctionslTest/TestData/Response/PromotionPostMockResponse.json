@@ -1,0 +1,21 @@
+
+[
+  {
+    "OrderID": 1,
+    "OriginalPrice": 195.0,
+    "Discount": 75.0,
+    "FinalPrice": 120.0
+  },
+  {
+    "OrderID": 2,
+    "OriginalPrice": 330.0,
+    "Discount": 260.0,
+    "FinalPrice": 70.0
+  },
+  {
+    "OrderID": 3,
+    "OriginalPrice": 175.0,
+    "Discount": 45.0,
+    "FinalPrice": 130.0
+  }
+]
